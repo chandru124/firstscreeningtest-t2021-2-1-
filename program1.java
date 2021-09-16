@@ -10,7 +10,7 @@ class Main {
     Scanner input = new Scanner(System.in);
 
     // ask users to enter operator
-    System.out.println("Choose an operator: add,sub,mul,div");
+    System.out.println("Choose an operation: add,sub,mul,div");
     String operator = input.nextLine(); 
 
     // ask users to enter numbers
